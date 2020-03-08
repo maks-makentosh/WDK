@@ -4,25 +4,55 @@
 body {
     margin: 0px;
 }
-.content {
+@font-face {
+    font-family: Revalia-Regular;
+    src: local(Revalia-Regular), url(fonts/Revalia-Regular.eot);
+    src: url("fonts/Revalia-Regular.ttf")
+}
+@font-face {
+    font-family: Roboto;
+    src: local(Roboto), url(fonts/Roboto.eot);
+    src: url("fonts/Roboto.ttf")
+}
+
+.container {
     margin: 0 auto;
     width: 80%;
 }
 .menu {
     position: fixed;
     background-color: #EEEFF1;
-    padding: 20px auto;
-    float: left;
     width: 100%;
+    padding: 25px;
+}
+.menuLogo {
+    float: left;
+    width: 30%;
+    font-family: Revalia-Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #34547A; 
+}
+.menuContent {
+    position: absolute;
+    left: 40%;
+    width: 70%;
+    float: left;
+    padding-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+
 }
 .menuContent_conteiner {
-    padding-right: 20px;
+    padding-right: 40px;
     float: left;
-
-}
-
-}
-}
-}
-
-
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
