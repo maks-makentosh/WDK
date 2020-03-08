@@ -14,10 +14,9 @@ body {
     src: local(Roboto), url(fonts/Roboto.eot);
     src: url("fonts/Roboto.ttf")
 }
-
 .container {
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
 }
 .menu {
     position: fixed;
@@ -38,7 +37,7 @@ body {
 }
 .menuContent {
     position: absolute;
-    left: 40%;
+    left: 50%;
     width: 70%;
     float: left;
     padding-top: 20px;
@@ -56,3 +55,55 @@ body {
     line-height: 26px;
     letter-spacing: 0.1em;
     color: #000000;
+}
+.first-screen {
+    position: absolute;
+    width: 100%;
+    margin-top: 110px;
+    background-color: #EEEFF1;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.first-screen_img {
+    float: left;
+    width: 50%;
+    padding-right: 0px;
+
+}
+.first-img {
+    position: relative;
+    left: 30%;
+}
+.first-screen_content {
+    float: left;
+    width: 50%;
+}
+.first-screen_content_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+.first-screen_content_description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 30px;
+}
+.first-screen_content_bottom {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
