@@ -3,47 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet">
-    <title>Document</title>
+    <title>WD</title>
 </head>
 <body>
-    <div class="menu">
+    
+    <header class="header">
         <div class="container">
-            <div class="menuLogo">
-                WD
+            <div class="header_inner">
+                <div class="header__logo">
+                    <h1 class="logo">WD</h1>
+                </div>
+                <nav class="nav">
+                    <a class="nav__link" href="#">Главная</a>
+                    <a class="nav__link" href="#">Об авторе</a>
+                    <a class="nav__link" href="#">Работы</a>
+                    <a class="nav__link" href="#">Процесс</a>
+                    <a class="nav__link" href="#">Контакты</a>
+                </nav>
             </div>
-            <div class="menuContent">
-                <div class="menuContent_conteiner" style="color: #34547A">
-                    ГЛАВНАЯ
+        </div>
+    </header>
+
+    <div class="first-screen">
+        <div class="container">
+            <div class="first-screen__inner">
+                <div class="first-screen__photo">
+                    <img class="laptop__img" src="img/first-screen-img.png">
                 </div>
-                <div class="menuContent_conteiner">
-                    ОБ АВТОРЕ
+                <div class="first-screen__content">
+                    <h1 class="first-screen__content__title">Дизайн и верстка</h1>
+                    <h2 class="first-screen__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</h2>
+                    <a class="btn btn--blue" href="#">Написать мне</a>
                 </div>
-                <div class="menuContent_conteiner">
-                    РАБОТЫ
-                </div>
-                <div class="menuContent_conteiner">
-                    ПРОЦЕСС
-                </div>
-                <div class="menuContent_conteiner">
-                    КОНТАКТЫ
+            </div>   
+        </div>   
+    </div>
+
+    <div class="about-me">
+        <div class="container">
+            <div class="about-me__inner">
+                <h2 class="about-me__title">Обо мне</h2>
+                <div class="about-me__text">
+                        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="first-screen">
+
+    <div class="numbers">
         <div class="container">
-            <div class="first-screen_img">
-                <img src="img/first-screen-img.png" class="first-img">
+            <div class="numbers__inner">
+                <img class="numbers__item" src="img/numbers__item.png">
+                <img class="numbers__item" src="img/numbers__item.png">
+                <img class="numbers__item" src="img/numbers__item.png">
+                <img class="numbers__item" src="img/numbers__item.png">
+                <img class="numbers__item" src="img/numbers__item.png">
+                <img class="numbers__item" src="img/numbers__item.png">
             </div>
-            <div class="first-screen_content">
-                <div class="first-screen_content_title">
-                    Дизайн и Верстка
+        </div>
+    </div>
+
+    <div class="skills">
+        <div class="container">
+            <div class="skills__iner">
+                <div class="skills-list">
+                    <h3 class="skills-list__title">
+                        Мои навыки
+                    </h3>
+                    
                 </div>
-                <div class="first-screen_content_description">
-                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-                </div>
-                <div class="first-screen_content_bottom">
-                    Написать мне
+                <div class="skills-photo">
+                    <img class="skills-img" src="img/skills_photo.jpg">
                 </div>
             </div>
         </div>
