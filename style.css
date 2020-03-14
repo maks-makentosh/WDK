@@ -1,4 +1,4 @@
-1* {
+* {
     box-sizing: border-box;
 }
 body {
@@ -7,12 +7,12 @@ body {
 @font-face {
     font-family: Revalia-Regular;
     src: local(Revalia-Regular), url(fonts/Revalia-Regular.eot);
-    src: url("fonts/Revalia-Regular.ttf")
+    src: url("fonts/Revalia-Regular.ttf");
 }
 @font-face {
     font-family: Roboto;
     src: local(Roboto), url(fonts/Roboto.eot);
-    src: url("fonts/Roboto.ttf")
+    src: url("fonts/Roboto.ttf");
 }
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
@@ -22,7 +22,7 @@ p {
 }
 .container {
     margin: 0 auto;
-    width: 100%;
+    width: 80%;
     max-width: 1160px;
 }
 .header {
@@ -34,17 +34,14 @@ p {
     background-color: #EEEFF1;
 }
 .logo {
-    font-family: Revalia;
-    font-style: normal;
-    font-weight: normal;
+    font-family: Revalia-Regular;
     font-size: 48px;
     line-height: 60px;
     text-align: center;
     color: #34547A;
     padding-left: 50px; 
-
 }
-.header_inner {
+.container--header {
     display: flex;
     justify-content: space-between;
     padding: 55px 0;
@@ -53,9 +50,8 @@ p {
 .nav {
     display: flex;
     font-family: Roboto;
-    font-weight: normal;
     line-height: 26px;
-    letter-spacing: 0.1em;
+    letter-spacing: 2px;
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -75,7 +71,7 @@ p {
     overflow: hidden;
     padding-bottom: 110px;
 }
-.first-screen__inner {
+.container--first-screen{
     display: flex;
     margin: 0 auto;
     max-width: 1040px; 
@@ -95,7 +91,6 @@ p {
 }
 .first-screen__content__title {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 1.5;
@@ -105,8 +100,6 @@ p {
 }
 .first-screen__subtitle {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 1.5;
     color: #727272;
@@ -121,8 +114,6 @@ p {
     cursor: pointer;
     padding: 20px 40px;
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
@@ -139,13 +130,12 @@ p {
     margin: 115px 0 115px;
     text-align: center;
 }
-.about-me__inner {
+.container--about-me{
     margin: 0 auto;
     max-width: 50%; 
 }
 .about-me__title {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 37px;
@@ -154,8 +144,6 @@ p {
 }
 .about-me__text {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
@@ -164,7 +152,7 @@ p {
     text-align: center;
     background-color: #34547A;
 }
-.numbers__inner {
+.container--numbers {
     margin: 90px 0 90px;
     display: inline-block;
 }
@@ -178,33 +166,31 @@ p {
 }
 .skills {
     background-color: #fff;
-}
-.skills__iner {
-    display: flex;
-    justify-content: center;
     width: 100%;
-    margin: 100px 0 100px;
+}
+.container--skills {
+    margin: 100px auto 100px auto;
+    overflow: hidden;
+    clear: both;
 }
 .skills-list {
-    display: flex;
-    justify-content: center;
     width: 50%;
+    padding-top: 110px;
+    float: left;
     flex-direction: column;
-
 }
 .skills-photo {
     width: 50%;
+    float: left;
     margin-left: auto;
     margin-right: auto;
 }
 .skills-img {
     width: 555px;
-    height: 450px;
     overflow: hidden;
 }
 .skills-list__title {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 37px;
@@ -213,12 +199,22 @@ p {
 }
 .skills-list__subtitle {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     color: #727272;
-    margin-bottom: 40px;
+    margin-bottom: 5px;
+}
+.skills_graph {
+    width: 445px;
+    height: 5px;
+    background-color: #E5E5E5;
+    border-radius: 3px;
+    margin-bottom: 25px;
+}
+.skills_indicator {
+    width: 70%;
+    height: 100%;
+    background-color: #34547A;
 }
 .skills-list__subtitle:last-child {
     margin-bottom: 0px;
@@ -227,7 +223,7 @@ p {
     background-color: #EEEFF1;
     text-align: center;
 }
-.video__iner {
+.container--video {
     margin: 100px 0 100px;
     display: inline-block;
 }
@@ -239,7 +235,6 @@ p {
 }
 .video__top__title {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 37px;
@@ -249,8 +244,6 @@ p {
 }
 .video__top__subtitle {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
@@ -303,7 +296,7 @@ p {
     text-align: center;
     background-color: #fff;
 }
-.clients__inner {
+.container--clients {
     margin: 70px 0 70px;
     display: inline-block;
 }
@@ -316,9 +309,10 @@ p {
     background-color: #EEEFF1;
     text-align: center;
 }
-.form__inner {
+.container--form{
     margin: 100px 0 100px;
-    max-width: 550px;
+    width: 60%;
+    max-width: 600px;
     display: inline-block;
 }
 .form__top {
@@ -328,7 +322,6 @@ p {
 }
 .form__title {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 37px;
@@ -338,11 +331,85 @@ p {
 }
 .form__subtitle {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     color: #727272;
     margin-bottom: 65px;
+}
+.form__content {
+    text-align: center;
+}
+.form__name {
+    border: none;
+    width: 255px;
+    height: 55px;
+    margin-right: 30px;
+    padding: 15px 0 15px 20px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+}
+.form__email {
+    border: none;
+    width: 255px;
+    height: 55px;
+    padding: 15px 0 15px 20px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+}
+.form__message {
+    margin-top: 20px;
+    padding: 15px 0 0 20px;
+    width: 545px;
+    height: 175px;
+    border: none;
+    resize: none;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 23px;
+    color: #5F5D5D;
+    margin-bottom: 50px;
+}
+.footer {
+    background-color: #34547A;
+    overflow: hidden;
+    clear: both;
+}
+.container--footer {
+    margin: 50px auto 50px auto;
+    overflow: hidden;
+}
+.footer__text {
+    width: 50%;
+    float: left;
+}
+.footer__social {
+    width: 50%;
+    float: left;
+    text-align: right;
+
+}
+.footer__text__title {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer__text__subtitle {
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.soc_icon {
+    margin-right: 15px;
+}
+.soc_icon:last-child {
+    margin-right: 0;
 }

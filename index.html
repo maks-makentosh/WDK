@@ -2,92 +2,90 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link href="style.css" rel="stylesheet">
     <title>WD</title>
 </head>
 <body>
     
     <header class="header">
-        <div class="container">
-            <div class="header_inner">
-                <div class="header__logo">
-                    <h1 class="logo">WD</h1>
-                </div>
-                <nav class="nav">
-                    <a class="nav__link" href="#">Главная</a>
-                    <a class="nav__link" href="#">Об авторе</a>
-                    <a class="nav__link" href="#">Работы</a>
-                    <a class="nav__link" href="#">Процесс</a>
-                    <a class="nav__link" href="#">Контакты</a>
-                </nav>
+        <div class="container container--header">
+            <div class="header__logo">
+                <h1 class="logo">WD</h1>
             </div>
+            <nav class="nav">
+                <a class="nav__link" href="#">Главная</a>
+                <a class="nav__link" href="#">Об авторе</a>
+                <a class="nav__link" href="#">Работы</a>
+                <a class="nav__link" href="#">Процесс</a>
+                <a class="nav__link" href="#">Контакты</a>
+            </nav>
         </div>
     </header>
 
     <div class="first-screen">
-        <div class="container">
-            <div class="first-screen__inner">
-                <div class="first-screen__photo">
-                    <img class="laptop__img" src="img/first-screen-img.png">
-                </div>
-                <div class="first-screen__content">
-                    <h1 class="first-screen__content__title">Дизайн и верстка</h1>
-                    <h2 class="first-screen__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</h2>
-                    <a class="btn btn--blue" href="#">Написать мне</a>
-                </div>
-            </div>   
+        <div class="container container--first-screen">
+            <div class="first-screen__photo">
+                <img class="laptop__img" src="img/first-screen-img.png">
+            </div>
+            <div class="first-screen__content">
+                <h1 class="first-screen__content__title">Дизайн и верстка</h1>
+                <h2 class="first-screen__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</h2>
+                <a class="btn btn--blue" href="#">Написать мне</a>
+            </div>  
         </div>   
     </div>
 
     <div class="about-me">
-        <div class="container">
-            <div class="about-me__inner">
-                <h2 class="about-me__title">Обо мне</h2>
-                <div class="about-me__text">
-                        <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                </div>
+        <div class="container container--about-me">
+            <h2 class="about-me__title">Обо мне</h2>
+            <div class="about-me__text">
+                <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
             </div>
         </div>
     </div>
 
     <div class="numbers">
-        <div class="container">
-            <div class="numbers__inner">
-                <img class="numbers__item" src="img/numbers__item.png">
-                <img class="numbers__item" src="img/numbers__item.png">
-                <img class="numbers__item" src="img/numbers__item.png">
-                <img class="numbers__item" src="img/numbers__item.png">
-                <img class="numbers__item" src="img/numbers__item.png">
-                <img class="numbers__item" src="img/numbers__item.png">
-            </div>
+        <div class="container container--numbers">
+            <img class="numbers__item" src="img/numbers__item.png">
+            <img class="numbers__item" src="img/numbers__item.png">
+            <img class="numbers__item" src="img/numbers__item.png">
+            <img class="numbers__item" src="img/numbers__item.png">
+            <img class="numbers__item" src="img/numbers__item.png">
+            <img class="numbers__item" src="img/numbers__item.png">
         </div>
     </div>
 
     <div class="skills">
-        <div class="container">
-            <div class="skills__iner">
-                <div class="skills-list">
-                    <h3 class="skills-list__title">Мои навыки</h3>
-                    <h4 class="skills-list__subtitle">Adobe Photoshop</h4>
-                    <h4 class="skills-list__subtitle">Adobe Photoshop</h4>
-                    <h4 class="skills-list__subtitle">Adobe Photoshop</h4>
+        <div class="container container--skills">
+            <div class="skills-list">
+                <h3 class="skills-list__title">Мои навыки</h3>
+                <h4 class="skills-list__subtitle">Adobe Photoshop</h4>
+                <div class="skills_graph"> 
+                    <div class="skills_indicator"></div>
                 </div>
-                <div class="skills-photo">
-                    <img class="skills-img" src="img/skills_photo.jpg">
+                <h4 class="skills-list__subtitle">Adobe Photoshop</h4>
+                <div class="skills_graph"> 
+                    <div class="skills_indicator"></div>
                 </div>
+                <h4 class="skills-list__subtitle">Adobe Photoshop</h4>
+                <div class="skills_graph"> 
+                    <div class="skills_indicator"></div>
+                </div>
+            </div>
+            <div class="skills-photo">
+                <img class="skills-img" src="img/skills_photo.jpg">
             </div>
         </div>
     </div>
 
     <div class="video">
-        <div class="container">
-            <div class="video__iner">
-                <div class="video__top">
-                    <h2 class="video__top__title">Как я работаю</h2>
-                    <h3 class="video__top__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</h3>
-                </div>
-                <video class="video__video" controls="#" width="1110" height="600" poster="img/video_poster.png"><source src="#" type="#"></video>
-            </div>      
+        <div class="container container--video">
+            <div class="video__top">
+                <h2 class="video__top__title">Как я работаю</h2>
+                <h3 class="video__top__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</h3>
+            </div>
+            <video class="video__video" controls="#" width="1110" height="600" poster="img/video_poster.png"><source src="#" type="#"></video>    
         </div>
     </div>
 
@@ -143,34 +141,40 @@
     </div>
 
     <div class="clients">
-        <div class="container">
-            <div class="clients__inner">
-                <img class="clients__item" src="img/clients_img.png">
-                <img class="clients__item" src="img/clients_img.png">
-                <img class="clients__item" src="img/clients_img.png">
-                <img class="clients__item" src="img/clients_img.png">
-            </div>
+        <div class="container container--clients">
+            <img class="clients__item" src="img/clients_img.png">
+            <img class="clients__item" src="img/clients_img.png">
+            <img class="clients__item" src="img/clients_img.png">
+            <img class="clients__item" src="img/clients_img.png">
         </div>
     </div>
 
     <div class="form">
-        <div class="container">
-            <div class="form__inner">
-                <div class="form__top">
-                    <h2 class="form__title">Хотите веб-сайт?</h2>
-                    <h3 class="form__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</h3>
-                </div>
-                <div class="form__content">
-                    <label for="form_name">Ваше имя</label>
-                    <input type="text" id="form_name">
-                    <label for="form_email">Ваш e-mail</label>
-                    <input type="email" id="form_email">
-                    <label for="form_massege">Сообщение</label>
-                    <textarea id="form_massege"></textarea>
-                </div>
-                <div class="form__btn">
-                    <a class="btn btn--blue btn--long" href="#">Отправить</a>
-                </div>
+        <div class="container container--form">
+            <div class="form__top">
+                <h2 class="form__title">Хотите веб-сайт?</h2>
+                <h3 class="form__subtitle">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</h3>
+            </div>
+            <div class="form__content">
+                <input class="form__name" type="text" placeholder="Ваше имя">
+                <input class="form__email" type="email" placeholder="Ваш e-mail"></br>
+                <textarea class="form__message" placeholder="Сообщение"></textarea>
+            </div>
+            <div class="form__btn">
+                <a class="btn btn--blue btn--long" href="#">Отправить</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container container--footer">
+            <div class="footer__text">
+                <h2 class="footer__text__title">Иванов Иван</h2>
+                <h3 class="footer__text__subtitle">(с) 2018. Все права защищены.</h3>
+            </div>
+            <div class="footer__social">
+                <img class="soc_icon" src="img/social_logo.png" alt="">
+                <img class="soc_icon" src="img/social_logo.png" alt="">
+                <img class="soc_icon" src="img/social_logo.png" alt="">
             </div>
         </div>
     </div>
