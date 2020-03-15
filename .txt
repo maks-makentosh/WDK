@@ -1,0 +1,3 @@
+background--stili
+background-size: 100%/cover/contain;
+background-position: 50% 30% kartinka nachnetsa po koordinayam;
