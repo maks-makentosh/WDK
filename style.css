@@ -451,38 +451,6 @@ p {
 .soc_icon:last-child {
     margin-right: 0;
 }
-.loader {
-    text-align: center;
-    margin: 70px auto;
-}
-.loader__icon {
-    animation-name: loader__icon;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    transform: rotate(0);
-}
-@keyframes loader__icon {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    } 
-
-}
-.watch {
-    width: 500px;
-    height: 500px;
-    border: 1px solid #000;
-    border-radius: 250px;
-}
-.watch-minute {
-    height: 250px;
-    width: 5px;
-    color: #000;
-}
-
 
 @media (max-width:1325px) {
     .numbers__item {
